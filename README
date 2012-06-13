@@ -1,5 +1,7 @@
-This is an example of ActiveJDBC using Ant
+This is an example of ActiveJDBC using PostgreSQL, built in order to help fixing this issue:
+https://code.google.com/p/activejdbc/issues/detail?id=144&sort=-id
+
 To execute:
 
-1. Run create.sql against your instance of MySQL - this will create a new table. 
-2. Execute: "ant run" in this directory
+1. Run ./example.sh against your instance of PostgreSQL - this will create a new database and tables needed.
+2. Execute project and see the results.
